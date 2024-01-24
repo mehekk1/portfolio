@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+            
+        img {
+            display: block;
+            border-radius: 50%;
+            margin: -20px;
+            max-width: 400%;
+        }
+    </style>
+</head>
+
+<body style="background-color: white;">
+    <script src= "https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <var>firebaseConfig = {
+          apiKey: "AIzaSyAs5n5b-26QpdnbnjfNCzOwJ-G4AE_MZQY",
+          authDomain: "just-keyword-412216.firebaseapp.com",
+          databaseURL: "https://just-keyword-412216-default-rtdb.firebaseio.com",
+          projectId: "just-keyword-412216",
+          storageBucket: "just-keyword-412216.appspot.com",
+          messagingSenderId: "253895626665",
+          appId: "1:253895626665:web:e6f1506148ea2c2e857eb8",
+          measurementId: "G-LTT9H4Z3XY"}</var>
+    <div class="navbar">
+        <ul>
+            <table id="header" border="0"
+                width="100%" cellpadding="0" valign="middle" align="center"
+                cellspacing="0" bgcolor="white">
+                <tr>
+                    <td>
+                        <font face="Poppins" size="6" color="orange">
+                            <b>Portfolio</b>
+                        </font>
+                    </td>
+                    <td>
+                        <table border="0" cellpadding="15"
+                            cellspacing="0" width="100%" align="middle"
+                            >
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <a href="#"
+                                        style="text-decoration: none;">
+                                    <font face="Verdana"
+                                        size="4" color="black">Home</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <a href="#about"
+                                        style="text-decoration: none;">
+                                    <font face="Verdana"
+                                        size="4" color="black">About</font>
+                                    </a>    
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <a href="#projects"
+                                        style="text-decoration: none;">
+                                    <font face="Verdana"
+                                        size="4" color="black">Projects & Skills</font>
+                                    </a> 
+                                </td>
+                                <td>
+
+                                
+                                </td>
+                                <td>
+                                    <a href="#contact"
+                                        style="text-decoration: none;">
+                                    <font face="Verdana"
+                                        size="4" color="black">Contact</font>
+                                    </a> 
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </ul>            
+        </div>
+         
+            <table id="about" border="0" width="100%" 
+                cellpadding="0" cellspacing="0" bgcolor="#200E3A">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0"
+                        cellspacing="0" width="80%" align="center">
+                        <tr>
+                            <td height="180" align="center"
+                                valign="middle" colspan="2">
+                                <font face="Verdana" size="7"
+                                color="yellow" valign="middle">
+                                About Me
+                                </font>
+                                <hr color="yellow" width="90">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td width="10%">
+                                <img src="images/IMG_6060.png">
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td width="60%">
+                                <font face="karla" size="7"
+                                color="white">
+                                <b>Mehak Mahajan</b></font><br>
+                                <hr color="yellow" width="200" align="left"><br>
+                                <font face="karla" size="3"
+                                color="#FAF0E6">
+                                Hi there!</font><br><br>
+                                <font face="Verdana" size="2"
+                                color="white">
+                                    Thanks for your interest! I'm an undergraduate at Birla Institute of Technology and Science, Pilani, Hyderabad pursuing my Bachelors in Electrical & Electronics Engineering.
+                                </font>
+                            </td>
+                        </tr>
+                        </table>
+                    </td>
+                    <table id="header" border="0" height="40"
+                        width="100%" cellpadding="0"
+                        cellspacing="0" bgcolor="#200E3A"></table>
+                    <table id="header" border="0"
+                        width="100%" cellpadding="0"
+                        cellspacing="0" bgcolor="yellow">
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="1"
+                            cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <h2>
+                                        <font face="Verdana" 
+                                        size="6" color="white"
+                                    </h2>
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </table>
+                </tr>
+                </table>
+                <hr color="white">
+                <hr color="white">
+            <table id="projects" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#200E3A">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <td height="180" align="center" valign="middle" colspan="2">
+                                    <font face="Verdana" size="7" color="yellow">Projects</font>
+                                    <hr color="yellow" width="90">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="10">
+                                    <font face="Verdana" size="5" color="white">
+                                       <ul>
+                                        <li> Calculator</li><br>
+                                        <li> BMI Calculator</li><br>
+                                        <li> Tic Tac Toe</li><br>
+                                        <li>Clock</li><br>
+                                    </font>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="180" align="center" valign="middle" colspan="2">
+                                    <font face="Verdana" size="7" color="yellow">Skills</font>
+                                    <hr color="yellow" width="90">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font face="Verdana" size="5" color="white">
+                                        <ul>
+                                            <li>Java</li><br>
+                                            <li>C</li><br>
+                                            <li>HTML</li><br>
+                                            <li>CSS</li><br>
+                                            <li>C++</li><br>
+                                            <li>Python</li><br>
+                                        </ul></font>
+                                    <font face="Verdana" align="center" size="4" color="white">
+                                        I'm proficient in Java and C. I love to solve problems and have learnt basics of OOPs.<br><br>
+                                         I'm currently learning web dev and DSA.<br><br>
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table id="header" border="0"
+                        width="100%" cellpadding="0"
+                        cellspacing="0" bgcolor="yellow">
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="1"
+                            cellspacing="0" width="80%" align="center">
+                            <tr>
+                                <td align="center" valign="middle">
+                                    <h2>
+                                        <font face="Verdana" 
+                                        size="6" color="white"
+                                    </h2>
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </table>
+                </tr>
+                </table>
+                <hr color="white">
+                <hr color="white">
+                <table id="contact" border="0" width="100%" 
+                cellpadding="0" cellspacing="0" bgcolor="#200E3A">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="15"
+                        cellspacing="0" width="80%" align="center">
+                        <tr>
+                            <td height="180" align="center"
+                                valign="middle" colspan="2">
+                                <font face="Verdana" size="7"
+                                color="yellow">
+                                Contact me
+                                </font>
+                                <hr color="yellow" width="90">
+                            </td>
+                        </tr>
+                        <tr> 
+                            <td width="60%">
+                                <font face="karla" size="5"
+                                color="white">Connect with me on<br><br>
+                                
+                                <a href="https://linkedin.com/in/mehak-mahajan-0a68b8228" >Linkedin</a><br><br>
+                                <a href="https://github.com/mehekk1">Git hub</a><br><br>
+                                <a href="mailto:f20220585@hyderabad.bits-pilani.ac.in">Email me</a><br><br>
+                                <a href="file:///Users/mehekk17/Desktop/college/java_home/rep.java/src/html/profile.html#contact">My website</a><br><br>
+                                
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="1"
+                                cellspacing="0" width="80%" align="center">
+                                <tr>
+                                    <td align="center" valign="middle">
+                                        <h2>
+                                            <font face="karla" size="5"
+                                            color="white">Reach out to me<br>
+                                            </font>
+                                        </h2>
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
+                        </tr>   
+                        <tr>
+                            <form>
+                            <td align="center" valign="top">
+                                <table border="0" width="50%" cellpadding="15"
+                                    cellspacing="0" align="center" bgcolor="#200E3A">
+                                    <tr>
+                                        <td width="30%">
+                                           
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                Name
+                                            </font>
+                                        </td>
+                                        <td width="70%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                <input type="text" size="40">
+                                            </font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="30%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                Email
+                                            </font>
+                                        </td>
+                                        <td width="70%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                <input type="email" size="40">
+                                            </font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="30%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                Number:<br>
+                                            </font>
+                                            <font face="Verdana" size="1"
+                                                color="#ffffff">
+                                                (Please enter with country code)
+                                            </font>
+                                        </td>
+                                        <td width="70%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                <input type="number" size="13">
+                                            </font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="30%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                Message
+                                            </font>
+                                        </td>
+                                        <td width="70%">
+                                            <font face="Verdana" size="4"
+                                                color="#ffffff">
+                                                <textarea rows="5"
+                                                    cols="37">
+                                                </textarea>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="30%">
+                                          
+                                        </td>
+                                        <td width="70%">
+                                            <button onclick="SubForm()"> <font face="Verdana"
+                                                size="4" color="black">
+                                                <b>Submit</b>
+                                            </font></button>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            </form>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                            </td>                                
+                        </tr>
+                        </table>                                
+
+</body>
+</html>
